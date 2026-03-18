@@ -1,0 +1,203 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.12.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+> Task :react-native-safe-area-context:preBuild
+> Task :react-native-ssl-pinning:preBuild UP-TO-DATE
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig
+> Task :react-native-safe-area-context:preDebugBuild
+> Task :react-native-ssl-pinning:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata
+> Task :react-native-ssl-pinning:writeDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :react-native-safe-area-context:generateDebugResValues
+> Task :react-native-safe-area-context:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :react-native-safe-area-context:packageDebugResources
+> Task :react-native-ssl-pinning:generateDebugResValues
+> Task :react-native-ssl-pinning:generateDebugResources
+> Task :react-native-ssl-pinning:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :react-native-safe-area-context:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :react-native-ssl-pinning:extractDeepLinksDebug
+> Task :react-native-safe-area-context:parseDebugLocalResources
+> Task :react-native-safe-area-context:compileDebugLibraryResources
+> Task :react-native-ssl-pinning:compileDebugLibraryResources
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateDebugBuildConfig
+> Task :react-native-ssl-pinning:parseDebugLocalResources
+
+> Task :react-native-ssl-pinning:processDebugManifest
+package="com.toyberman" found in source AndroidManifest.xml: C:\VG\node_modules\react-native-ssl-pinning\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.toyberman" from the source AndroidManifest.xml: C:\VG\node_modules\react-native-ssl-pinning\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-safe-area-context:javaPreCompileDebug
+> Task :react-native-ssl-pinning:generateDebugBuildConfig
+> Task :react-native-ssl-pinning:generateDebugRFile
+> Task :react-native-safe-area-context:generateDebugRFile
+> Task :react-native-ssl-pinning:javaPreCompileDebug
+
+> Task :react-native-safe-area-context:processDebugManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: C:\VG\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: C:\VG\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+> Task :app:mergeDebugResources
+
+> Task :app:processDebugMainManifest
+package="com.veritasguard" found in source AndroidManifest.xml: C:\VG\android\app\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.veritasguard" from the source AndroidManifest.xml: C:\VG\android\app\src\main\AndroidManifest.xml.
+
+> Task :app:processDebugManifest
+
+> Task :react-native-ssl-pinning:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:javaPreCompileDebug
+> Task :react-native-ssl-pinning:bundleLibCompileToJarDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets
+> Task :react-native-ssl-pinning:mergeDebugShaders
+> Task :react-native-ssl-pinning:compileDebugShaders NO-SOURCE
+> Task :react-native-ssl-pinning:generateDebugAssets UP-TO-DATE
+> Task :react-native-ssl-pinning:mergeDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :react-native-ssl-pinning:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugManifestForPackage
+
+> Task :react-native-safe-area-context:compileDebugKotlin
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:9:8 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:50:54 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:9:32 'class LayoutShadowNode : ReactShadowNodeImpl' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:110:61 'class NativeViewHierarchyOptimizer : Any' is deprecated. Deprecated in Java.
+
+> Task :app:processDebugResources
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac
+> Task :react-native-safe-area-context:processDebugJavaRes
+> Task :react-native-ssl-pinning:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :react-native-ssl-pinning:bundleLibRuntimeToDirDebug
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug
+
+> Task :app:compileDebugKotlin
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:71:22 'fun recycle(): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:135:23 'fun recycle(): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:151:41 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/clipboard/ClipboardListenerPackage.kt:16:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/overlay/OverlayPackage.kt:16:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+> Task :app:mergeExtDexDebug
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86]
+> Task :app:buildCMakeDebug[x86]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:mergeDebugJniLibFolders
+> Task :react-native-safe-area-context:mergeDebugJniLibFolders
+> Task :react-native-safe-area-context:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectOnly
+> Task :react-native-ssl-pinning:mergeDebugJniLibFolders
+> Task :react-native-ssl-pinning:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-ssl-pinning:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :react-native-safe-area-context:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectAndLocalJars
+> Task :app:mergeDebugNativeLibs
+> Task :react-native-safe-area-context:extractDebugAnnotations
+> Task :react-native-safe-area-context:extractDeepLinksForAarDebug
+> Task :react-native-safe-area-context:mergeDebugGeneratedProguardFiles
+> Task :react-native-safe-area-context:mergeDebugConsumerProguardFiles
+> Task :react-native-safe-area-context:prepareDebugArtProfile
+> Task :react-native-ssl-pinning:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-ssl-pinning:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-safe-area-context:prepareLintJarForPublish
+> Task :react-native-safe-area-context:mergeDebugJavaResource
+> Task :react-native-ssl-pinning:extractDebugAnnotations
+> Task :react-native-safe-area-context:syncDebugLibJars
+> Task :react-native-safe-area-context:bundleDebugAar
+> Task :react-native-safe-area-context:assembleDebug
+> Task :react-native-ssl-pinning:extractDeepLinksForAarDebug
+> Task :react-native-ssl-pinning:mergeDebugGeneratedProguardFiles
+> Task :react-native-ssl-pinning:mergeDebugConsumerProguardFiles
+> Task :react-native-ssl-pinning:prepareDebugArtProfile
+> Task :react-native-ssl-pinning:prepareLintJarForPublish
+> Task :react-native-ssl-pinning:mergeDebugJavaResource
+> Task :react-native-ssl-pinning:syncDebugLibJars
+> Task :react-native-ssl-pinning:bundleDebugAar
+> Task :react-native-ssl-pinning:assembleDebug
+> Task :app:stripDebugDebugSymbols
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///C:/VG/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 21s
+120 actionable tasks: 110 executed, 10 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.0.0/userguide/configuration_cache_enabling.html

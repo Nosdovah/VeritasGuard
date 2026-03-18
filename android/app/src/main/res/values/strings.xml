@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VeritasGuard</string>
+    <string name="accessibility_service_label">VeritasGuard Anti-Hoax &amp; Security</string>
+    <string name="accessibility_service_description">VeritasGuard uses this service to scan on-screen text for hoaxes and phishing attempts in real-time. It is strictly limited to reading text in supported apps (like WhatsApp, Instagram) to verify facts. No personal data is stored.</string>
+</resources>

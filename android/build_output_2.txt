@@ -1,0 +1,52 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Task :app:externalNativeBuildCleanDebug
+Clean react_codegen_safeareacontext-armeabi-v7a, appmodules-armeabi-v7a
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+Clean react_codegen_safeareacontext-arm64-v8a, appmodules-arm64-v8a
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+Clean react_codegen_safeareacontext-x86, appmodules-x86
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+Clean react_codegen_safeareacontext-x86_64, appmodules-x86_64
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+
+> Task :app:externalNativeBuildCleanDebugOptimized
+> Task :app:externalNativeBuildCleanRelease
+> Task :app:clean
+> Task :react-native-safe-area-context:clean UP-TO-DATE
+> Task :react-native-ssl-pinning:clean UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///C:/VG/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+16 actionable tasks: 4 executed, 12 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.0.0/userguide/configuration_cache_enabling.html

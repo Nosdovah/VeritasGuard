@@ -1,0 +1,12 @@
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/CMakeFiles/appmodules.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/CMakeFiles/edit_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/CMakeFiles/rebuild_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/edit_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnclipboard_autolinked_build/CMakeFiles/react_codegen_rnclipboard.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnclipboard_autolinked_build/CMakeFiles/edit_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/rnclipboard_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+C:/VG/android/app/.cxx/RelWithDebInfo/3rd70r63/x86_64/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir

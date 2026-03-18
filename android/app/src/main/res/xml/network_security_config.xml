@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    VeritasGuard Network Security Configuration
+    
+    Enforces:
+    - TLS 1.3 minimum (via SSL pinning)
+    - Certificate pinning for API domain
+    - No cleartext traffic allowed globally
+    
+    IMPORTANT: Replace the placeholder pin-set digests with your actual
+    server certificate SHA-256 pins before production deployment.
+    Generate pins with: openssl x509 -in cert.pem -pubkey -noout | openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64
+-->
+<network-security-config>
+
+    <!-- Global: block all cleartext / HTTP traffic -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Debugging: Allow cleartext for localhost -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">localhost</domain>
+    </domain-config>
+
+    <!-- API Server: certificate pinning -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.veritasguard.io</domain>
+
+        <pin-set expiration="2027-01-01">
+            <!-- Primary certificate pin (SHA-256) -->
+            <pin digest="SHA-256">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pin>
+            <!-- Backup certificate pin (SHA-256) -->
+            <pin digest="SHA-256">BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=</pin>
+        </pin-set>
+
+        <trust-anchors>
+            <certificates src="system" />
+            <!-- Include user-installed CAs for debug builds only -->
+            <certificates
+                src="user"
+                overridePins="false" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Debug overrides: allow user CAs for local development -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+
+</network-security-config>

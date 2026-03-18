@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    VeritasGuard Accessibility Service Configuration
+    
+    SCOPED to specific social media & news packages only.
+    This strictly limits data collection to prevent spyware classification.
+    
+    Adding new packages requires user re-consent and Play Store declaration update.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeViewTextChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="500"
+    android:packageNames="com.instagram.android,com.whatsapp,com.twitter.android,org.telegram.messenger,com.zhiliaoapp.musically,com.facebook.katana"
+    android:settingsActivity="com.veritasguard.MainActivity" />

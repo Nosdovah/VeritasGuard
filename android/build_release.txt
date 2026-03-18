@@ -1,0 +1,276 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.12.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-ssl-pinning:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :app:buildCMakeRelWithDebInfo[armeabi-v7a]
+> Task :app:configureCMakeRelWithDebInfo[x86]
+> Task :app:buildCMakeRelWithDebInfo[x86]
+> Task :app:configureCMakeRelWithDebInfo[x86_64]
+> Task :app:buildCMakeRelWithDebInfo[x86_64]
+> Task :app:mergeReleaseJniLibFolders
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-ssl-pinning:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly
+> Task :react-native-ssl-pinning:mergeReleaseJniLibFolders
+> Task :react-native-ssl-pinning:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-ssl-pinning:copyReleaseJniLibsProjectOnly
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+> Task :react-native-safe-area-context:generateReleaseResValues
+> Task :react-native-safe-area-context:generateReleaseResources
+> Task :react-native-safe-area-context:packageReleaseResources
+> Task :react-native-ssl-pinning:generateReleaseBuildConfig
+> Task :react-native-ssl-pinning:generateReleaseResValues
+> Task :react-native-safe-area-context:javaPreCompileRelease
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+> Task :react-native-ssl-pinning:generateReleaseResources
+> Task :react-native-safe-area-context:generateReleaseRFile
+> Task :react-native-ssl-pinning:packageReleaseResources
+> Task :react-native-ssl-pinning:parseReleaseLocalResources
+> Task :react-native-ssl-pinning:javaPreCompileRelease
+> Task :react-native-ssl-pinning:generateReleaseRFile
+> Task :app:checkReleaseDuplicateClasses
+
+> Task :react-native-ssl-pinning:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeReleaseNativeLibs
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateReleaseBuildConfig
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+> Task :react-native-ssl-pinning:writeReleaseAarMetadata
+> Task :react-native-ssl-pinning:bundleLibRuntimeToDirRelease
+> Task :app:stripReleaseDebugSymbols
+
+> Task :app:createBundleReleaseJsAndAssets
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+ WARN  the transform cache was reset.
+                Welcome to Metro v0.83.3
+              Fast - Scalable - Integrated
+
+
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:9:8 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:50:54 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:9:32 'class LayoutShadowNode : ReactShadowNodeImpl' is deprecated. Deprecated in Java.
+w: file:///C:/VG/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:110:61 'class NativeViewHierarchyOptimizer : Any' is deprecated. Deprecated in Java.
+
+> Task :app:createBundleReleaseJsAndAssets
+LOG:Writing bundle output to: android\app\build\generated\assets\react\release\index.android.bundle
+LOG:Writing sourcemap output to: android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+LOG:Done writing bundle output
+LOG:Done writing sourcemap output
+
+> Task :app:extractReleaseNativeSymbolTables
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+> Task :app:generateReleaseResValues
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease
+> Task :app:mergeReleaseNativeDebugMetadata
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:parseReleaseLocalResources
+> Task :app:extractDeepLinksRelease
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+> Task :react-native-ssl-pinning:extractDeepLinksRelease
+
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: C:\VG\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: C:\VG\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-ssl-pinning:processReleaseManifest
+package="com.toyberman" found in source AndroidManifest.xml: C:\VG\node_modules\react-native-ssl-pinning\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.toyberman" from the source AndroidManifest.xml: C:\VG\node_modules\react-native-ssl-pinning\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+> Task :app:mergeReleaseResources
+
+> Task :app:processReleaseMainManifest
+package="com.veritasguard" found in source AndroidManifest.xml: C:\VG\android\app\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.veritasguard" from the source AndroidManifest.xml: C:\VG\android\app\src\main\AndroidManifest.xml.
+
+> Task :app:processReleaseManifest
+> Task :react-native-ssl-pinning:compileReleaseLibraryResources
+> Task :app:processReleaseManifestForPackage
+> Task :app:desugarReleaseFileDependencies
+> Task :react-native-ssl-pinning:bundleLibCompileToJarRelease
+> Task :app:javaPreCompileRelease
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+> Task :app:mergeReleaseStartupProfile
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexRelease
+> Task :react-native-safe-area-context:prepareReleaseArtProfile
+> Task :react-native-ssl-pinning:prepareReleaseArtProfile
+> Task :app:mergeReleaseArtProfile
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :react-native-ssl-pinning:bundleLibRuntimeToJarRelease
+> Task :react-native-safe-area-context:mergeReleaseShaders
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseAssets
+> Task :react-native-ssl-pinning:mergeReleaseShaders
+> Task :react-native-ssl-pinning:compileReleaseShaders NO-SOURCE
+> Task :react-native-ssl-pinning:generateReleaseAssets UP-TO-DATE
+> Task :react-native-ssl-pinning:mergeReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :react-native-safe-area-context:processReleaseJavaRes
+> Task :react-native-safe-area-context:createFullJarRelease
+> Task :react-native-safe-area-context:extractProguardFiles
+
+> Task :app:compileReleaseKotlin
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:71:22 'fun recycle(): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:135:23 'fun recycle(): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/accessibility/ScreenTextAccessibilityService.kt:151:41 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/clipboard/ClipboardListenerPackage.kt:16:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/VG/android/app/src/main/java/com/veritasguard/overlay/OverlayPackage.kt:16:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+> Task :react-native-safe-area-context:generateReleaseLintModel
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:dexBuilderRelease
+> Task :react-native-safe-area-context:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-ssl-pinning:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :react-native-ssl-pinning:createFullJarRelease
+> Task :react-native-ssl-pinning:extractProguardFiles
+> Task :react-native-ssl-pinning:generateReleaseLintModel
+> Task :react-native-ssl-pinning:prepareLintJarForPublish UP-TO-DATE
+> Task :app:generateReleaseLintVitalReportModel
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease
+> Task :react-native-safe-area-context:extractReleaseAnnotations
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles
+> Task :react-native-ssl-pinning:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-ssl-pinning:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-ssl-pinning:extractDeepLinksForAarRelease
+> Task :react-native-ssl-pinning:extractReleaseAnnotations
+> Task :react-native-ssl-pinning:mergeReleaseGeneratedProguardFiles
+> Task :react-native-ssl-pinning:mergeReleaseConsumerProguardFiles
+> Task :react-native-ssl-pinning:mergeReleaseJavaResource
+> Task :react-native-safe-area-context:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :react-native-safe-area-context:syncReleaseLibJars
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar
+> Task :react-native-ssl-pinning:syncReleaseLibJars
+> Task :react-native-ssl-pinning:bundleReleaseLocalLintAar
+> Task :react-native-safe-area-context:writeReleaseLintModelMetadata
+> Task :react-native-ssl-pinning:writeReleaseLintModelMetadata
+> Task :react-native-safe-area-context:generateReleaseLintVitalModel
+> Task :react-native-ssl-pinning:generateReleaseLintVitalModel
+> Task :app:processReleaseJavaRes
+> Task :app:compileReleaseArtProfile
+> Task :app:mergeReleaseJavaResource
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :react-native-safe-area-context:bundleReleaseAar
+> Task :react-native-safe-area-context:mapReleaseSourceSetPaths
+> Task :react-native-safe-area-context:mergeReleaseResources
+> Task :app:optimizeReleaseResources
+> Task :react-native-ssl-pinning:bundleReleaseAar
+> Task :react-native-ssl-pinning:mapReleaseSourceSetPaths
+> Task :react-native-ssl-pinning:lintVitalAnalyzeRelease
+> Task :react-native-safe-area-context:lintVitalAnalyzeRelease
+> Task :react-native-ssl-pinning:mergeReleaseResources
+> Task :react-native-safe-area-context:verifyReleaseResources
+> Task :react-native-safe-area-context:assembleRelease
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+> Task :react-native-ssl-pinning:verifyReleaseResources FAILED
+
+[Incubating] Problems report is available at: file:///C:/VG/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-ssl-pinning:verifyReleaseResources'.
+> A failure occurred while executing com.android.build.gradle.tasks.VerifyLibraryResourcesTask$Action
+   > Android resource linking failed
+     ERROR: C:\VG\node_modules\react-native-ssl-pinning\android\build\intermediates\merged_res\release\mergeReleaseResources\values\values.xml:2754: AAPT: error: resource android:attr/lStar not found.
+         
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5m 23s
+155 actionable tasks: 138 executed, 17 up-to-date

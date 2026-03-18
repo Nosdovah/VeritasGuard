@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "safeareacontext_autolinked_build",
+		"source" : "C:/Users/raiha/Documents/Kuliah/Universitas Pakuan/Personal Project/P2MW/VeritasGuard_ReactNative/node_modules/react-native-safe-area-context/android/src/main/jni"
+	}
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_bg"
+    android:backgroundTint="#0B2D72"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="10dp"
+    android:minWidth="250dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VeritasGuard"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Paste Link Input -->
+    <EditText
+        android:id="@+id/input_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20FFFFFF"
+        android:hint="Paste Link Here"
+        android:textColorHint="#91938F"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:layout_marginBottom="12dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <Button
+            android:id="@+id/btn_scan_phishing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Phishing"
+            android:textSize="10sp"
+            android:backgroundTint="#3B82F6"
+            android:textColor="#FFFFFF"
+            android:minHeight="40dp"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btn_verify_fact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hoax"
+            android:textSize="10sp"
+            android:backgroundTint="#AECC0F"
+            android:textColor="#121212"
+            android:minHeight="40dp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analysis powered by Gemini"
+        android:textColor="#91938F"
+        android:textSize="8sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Close Button -->
+    <Button
+        android:id="@+id/btn_close_menu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:text="Close"
+        android:textColor="#91938F"
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

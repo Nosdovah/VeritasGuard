@@ -1,0 +1,2 @@
+C:\Users\raiha\Documents\Kuliah\Universitas Pakuan\Personal Project\P2MW\VeritasGuard_ReactNative\node_modules\react-native-safe-area-context\android\src\main\jni\CMakeLists.txt
+C:\Users\raiha\Documents\Kuliah\Universitas Pakuan\Personal Project\P2MW\VeritasGuard_ReactNative\node_modules\react-native\ReactAndroid\cmake-utils\default-app-setup\CMakeLists.txt

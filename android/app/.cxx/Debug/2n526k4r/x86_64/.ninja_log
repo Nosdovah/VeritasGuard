@@ -1,0 +1,27 @@
+# ninja log v5
+5	38	0	C:/VG/android/app/.cxx/Debug/2n526k4r/x86_64/CMakeFiles/cmake.verify_globs	f115e6449cd372e9
+19	12304	7924213240324151	CMakeFiles/appmodules.dir/C_/VG/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	66ee487b3640794f
+29	21275	7924056160251167	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/0ab2a0ecdf8ccbcf3706e49b92d11ba1/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o	730358ff1bc892e2
+24	13657	7924056083254067	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/2fc2be37c0a3ea587416e03d6cd180d6/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o	504755c4017094c0
+14598	14787	7924213265548923	C:/VG/android/app/build/intermediates/cxx/Debug/2n526k4r/obj/x86_64/libappmodules.so	b866eb97fdbfe685
+43	14113	7924056087764244	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/617388f3b237359cd140c859eee75e45/android/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o	bf57726ddbeafc99
+13696	22383	7924056171654356	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/0ab2a0ecdf8ccbcf3706e49b92d11ba1/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o	8a6328c710116dc4
+38	23564	7924056182455307	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/507956dbd6394ee8ba456c06548351e5/source/codegen/jni/react/renderer/components/safeareacontext/ComponentDescriptors.cpp.o	fb6db8c27c7005c
+24	8817	7924213199285275	CMakeFiles/appmodules.dir/OnLoad.cpp.o	97d7221af667743e
+69	9744	7924213214814820	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8794ce26169b64551612596524d08cc5/generated/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o	3feca15000f166e9
+13	22520	7924056172832363	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/617388f3b237359cd140c859eee75e45/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o	c45cfc8dffd09b47
+19	21230	7924056155978934	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/617388f3b237359cd140c859eee75e45/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o	a51616f17047991b
+14114	29825	7924056246353016	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/2fc2be37c0a3ea587416e03d6cd180d6/generated/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o	118ab53fc88e001
+14309	14598	7924213263592366	C:/VG/android/app/build/intermediates/cxx/Debug/2n526k4r/obj/x86_64/libreact_codegen_safeareacontext.so	9ed1d1eae2a6e9e7
+33	1701	7928637510902169	build.ninja	3ad1ab1abb460be5
+0	8	0	clean	b2a5faa5678f81ce
+39	4307	7924213160000556	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/4e0b0bc2fe9bd6fc39133ad5f6d983e8/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o	4bdd8458b224704e
+75	6228	7924213178868174	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8794ce26169b64551612596524d08cc5/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o	5c1460fffa27cb3a
+29	8683	7924213202580928	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/ca281a45cd52ba9c3ec0ab6c32276eaf/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o	337ab37540f81e81
+35	9372	7924213210742489	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/ca281a45cd52ba9c3ec0ab6c32276eaf/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o	5ba97d9144a1c6d4
+63	11415	7924213231516209	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d03fa49bc3a974cd5d3ae0a01ca7de5e/source/codegen/jni/react/renderer/components/safeareacontext/ComponentDescriptors.cpp.o	c938d0675e325c4a
+6229	13845	7924213255962579	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/C_/VG/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o	f397602f6eea63a0
+4308	14308	7924213260569834	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/4e0b0bc2fe9bd6fc39133ad5f6d983e8/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o	331d7db36a758f71
+39	1135	7928637510902169	build.ninja	3ad1ab1abb460be5
+2	36	0	C:/VG/android/app/.cxx/Debug/2n526k4r/x86_64/CMakeFiles/cmake.verify_globs	f115e6449cd372e9
+0	9	0	clean	b2a5faa5678f81ce

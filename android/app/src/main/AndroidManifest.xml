@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.veritasguard">
+
+    <!-- ========================== -->
+    <!-- PERMISSIONS                -->
+    <!-- ========================== -->
+
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Foreground Service (Base + Typed for Android 14+/16+) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- Overlay / Assistive Touch -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <!-- Accessibility (Hoax Checker) -->
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <!-- Notifications (Android 13+ / API 33+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- System Alert Window for Floating Overlay Badges -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- Wake Lock for Headless JS tasks -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Receive Boot to restart services -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <!-- ========================== -->
+        <!-- MAIN ACTIVITY              -->
+        <!-- ========================== -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ========================== -->
+        <!-- CLIPBOARD LISTENER SERVICE -->
+        <!-- Foreground Service: dataSync + specialUse (Android 16+) -->
+        <!-- ========================== -->
+        <service
+            android:name=".clipboard.ClipboardListenerService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync|specialUse">
+
+             <!-- Android 16+ requires justification for specialUse FGS -->
+             <property
+                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                 android:value="Real-time clipboard security monitoring for phishing URL detection. User explicitly consents during onboarding." />
+         </service>
+ 
+         <!-- ========================== -->
+         <!-- OVERLAY SERVICE            -->
+         <!-- Assistive Touch UI         -->
+         <!-- ========================== -->
+         <service
+             android:name=".overlay.OverlayService"
+             android:enabled="true"
+             android:exported="false"
+             android:foregroundServiceType="specialUse">
+             <property android:name="android.app.property.FOREGROUND_SERVICE_TYPE" android:value="specialUse" />
+             <property 
+                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" 
+                 android:value="Assistive touch interface for immediate security actions." />
+         </service>
+
+        <!-- ========================== -->
+        <!-- HEADLESS JS TASK SERVICE   -->
+        <!-- Processes clipboard data in background via React Native -->
+        <!-- ========================== -->
+        <service
+            android:name=".clipboard.PhishingTaskService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- ========================== -->
+        <!-- ACCESSIBILITY SERVICE      -->
+        <!-- Scoped to specific packages (anti-spyware compliant) -->
+        <!-- ========================== -->
+        <service
+            android:name=".accessibility.ScreenTextAccessibilityService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/accessibility_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            tools:ignore="ExportedService">
+
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- ========================== -->
+        <!-- BOOT RECEIVER              -->
+        <!-- Restart services after device reboot -->
+        <!-- ========================== -->
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>
