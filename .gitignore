@@ -1,1 +1,10 @@
-node_modules
+node_modules/
+*.hprof
+
+# Android build artifacts
+android/app/build/
+android/build/
+android/.cxx/
+android/app/.cxx/
+*.hprof
+*.pyc
